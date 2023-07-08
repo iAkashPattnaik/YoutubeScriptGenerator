@@ -1,27 +1,34 @@
-# youtube_content_script_generator
-
-<div align="center" style="margin: 30px;">
-    <a href="https://refine.dev">
-    <img src="https://refine.ams3.cdn.digitaloceanspaces.com/refine_logo.png"  align="center" />
-    </a>
-</div>
-<br/>
+# Youtube Script Generator
 
 This [refine](https://github.com/pankod/refine) project was generated with [superplate](https://github.com/pankod/refine).
 
+## Information
+
+![Image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w0ntep7qf8r756vxqus0.jpg)
+
+This project was made for the **[refine + dev Hackathon](https://dev.to/devteam/announcing-the-refine-dev-hackathon-29fn)**. This project can be used as a template for various further different projects.
+
+## Frameworks Used
+
+- [**NextJS**](https://nextjs.org/)
+- [**Refine**](https://refine.dev/)
+- [**Material UI**](https://mui.com/)
+- [**OpenAI API**](https://openai.com/blog/openai-api)
+- [**Tailwind CSS**](https://tailwindcss.com/)
+
+### Rules Followed
+
+- Clean Code
+- Minimal Code
+- Error handling
+    
 ## Getting Started
 
-**refine** is a React-based framework for building data-intensive applications in no time ✨
+This project is built as an example of how OpenAI's ChatCompletion API can be used in projects using [NextJS](https://nextjs.org/).
 
-Refine offers lots of out-of-the box functionality for rapid development, without compromising extreme customizability. Use-cases include, but are not limited to admin panels, B2B applications and dashboards.
+## Running the project by
 
-## Available Scripts
-
-### Running the development server.
-
-```bash
-    npm run dev
-```
+**Make sure to create a `.env` file in the root directory and put the `promt` field to use this project.**
 
 ### Building for production.
 
@@ -34,13 +41,6 @@ Refine offers lots of out-of-the box functionality for rapid development, withou
 ```bash
     npm run start
 ```
-
-## Learn More
-
-To learn more about **refine**, please check out the [Documentation](https://refine.dev/docs)
-
-- **REST Data Provider** [Docs](https://refine.dev/docs/core/providers/data-provider/#overview)
-- **Material UI** [Docs](https://refine.dev/docs/ui-frameworks/mui/tutorial/)
 
 ## License
 

@@ -1,6 +1,6 @@
 {
   "name": "youtube_content_script_generator",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 refine dev",
@@ -10,31 +10,36 @@
     "refine": "refine"
   },
   "dependencies": {
-    "@refinedev/cli": "^2.5.1",
-    "@refinedev/core": "^4.5.8",
-    "@refinedev/nextjs-router": "^5.1.4",
-    "@refinedev/inferencer": "^4.0.0",
-    "@refinedev/kbar": "^1.1.0",
-    "next": "^13.0.6",
-    "nookies": "^2.5.2",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "@refinedev/simple-rest": "^4.0.0",
-    "@refinedev/mui": "^5.0.0",
-    "@refinedev/react-hook-form": "^4.1.2",
-    "@mui/icons-material": "^5.8.3",
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.8.3",
     "@mui/lab": "^5.0.0-alpha.85",
     "@mui/material": "^5.8.6",
-    "@mui/x-data-grid": "^6.6.0"
+    "@mui/x-data-grid": "^6.6.0",
+    "@refinedev/cli": "^2.5.1",
+    "@refinedev/core": "^4.5.8",
+    "@refinedev/inferencer": "^4.0.0",
+    "@refinedev/kbar": "^1.1.0",
+    "@refinedev/mui": "^5.0.0",
+    "@refinedev/nextjs-router": "^5.1.4",
+    "@refinedev/react-hook-form": "^4.1.2",
+    "@refinedev/simple-rest": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "next": "^13.0.6",
+    "nookies": "^2.5.2",
+    "openai": "^3.3.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "@types/node": "^12.20.11",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "@types/node": "^12.20.11",
     "@typescript-eslint/parser": "5.48.0",
-    "typescript": "^4.7.4",
-    "cross-env": "^7.0.3"
+    "autoprefixer": "^10.4.14",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.25",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^4.7.4"
   }
 }
